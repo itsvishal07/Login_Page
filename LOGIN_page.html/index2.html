@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles2.css"
+</head>
+<body>
+    <button class="login-btn" onclick="showform()">Login</button>
+    <div class="pop-up" onclick="closeform()"></div>
+    <div class="Loginform">
+        <span class="cancel">&times;</span>
+        <form action="">
+            <div class="container">
+                <label for="Username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Username" required>
+            </div>
+            <div class="container">
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+            </div>
+                <button type="submit">Login</button>
+            <div class="container">
+                <label>
+                <input type="checkbox" checked="checked" name="Remember">Remember me
+                </label>
+            </div>
+            
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="password">Forgot <a href="#">password?</a></span>
+              </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
